@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Dua</name>
+    <description>
+       Dua App
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        abdul munnim
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon qualifier="ldpi" src="res/icon/android/ldpi.png" />
+    <icon qualifier="mdpi" src="res/icon/android/mdpi.png" />
+    <icon qualifier="hdpi" src="res/icon/android/hdpi.png" />
+    <icon qualifier="xhdpi" src="res/icon/android/xhdpi.png" />
+    <icon qualifier="xxhdpi" src="res/icon/android/xxhdpi.png" />
+    <icon qualifier="xxxhdpi" src="res/icon/android/xxxhdpi.png" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="orientation" value="default" />
+</widget>
